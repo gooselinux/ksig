@@ -1,0 +1,10 @@
+diff -ur ksig-orig/ksig.desktop ksig-1.1-svn/ksig.desktop
+--- ksig-orig/ksig.desktop	2008-02-13 22:14:28.000000000 +0100
++++ ksig-1.1-svn/ksig.desktop	2010-06-18 15:54:31.898221073 +0200
+@@ -1,6 +1,5 @@
+ # KDE Config File
+ [Desktop Entry]
+-Encoding=UTF-8
+ Type=Application
+ Exec=ksig -caption "%c"
+ Icon=ksig

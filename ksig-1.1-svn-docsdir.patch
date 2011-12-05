@@ -1,0 +1,6 @@
+diff -up ksig-1.1-svn/doc/CMakeLists.txt.orig ksig-1.1-svn/doc/CMakeLists.txt
+--- ksig-1.1-svn/doc/CMakeLists.txt.orig	2008-08-29 10:02:10.000000000 +0200
++++ ksig-1.1-svn/doc/CMakeLists.txt	2008-08-29 10:02:23.000000000 +0200
+@@ -1 +1 @@
+-kde4_create_handbook(index.docbook INSTALL_DESTINATION ${HTML_INSTALL_DIR}/en)
++kde4_create_handbook(index.docbook INSTALL_DESTINATION ${HTML_INSTALL_DIR}/en SUBDIR ksig)
